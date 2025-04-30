@@ -10,7 +10,7 @@ class Main {
 
     public static String calc(String input) {
         String[] parts = input.trim().split("");
-        if (parts.length != 3) throw new RuntimeException(" ");
+        if (parts.length != 3) throw new RuntimeException("Неверный формат");
 
         int a = parseInt(parts[0]);
         int b = parseInt(parts[2]);
